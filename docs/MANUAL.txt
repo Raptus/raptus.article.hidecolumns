@@ -10,6 +10,7 @@ Code overview
 
 Schema extender
 ---------------
-file: extender.py
 
+file: extender.py
+`````````````````
 - ArticleSchemaExtender - for IArticle

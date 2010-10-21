@@ -1,14 +1,16 @@
 Introduction
 ============
 
-Article gets the option to hide the left or the right column or both.
+Articles get the option to hide the left or the right column or both.
 
-Following features for raptus.article are provided by this package:
+The following features for raptus.article are provided by this package:
 
+Fields
+------
     * Option to hide the portlet columns
 
-Dependencies:
-
+Dependencies
+------------
     * raptus.article.core
 
 Installation
@@ -48,15 +50,13 @@ Usage
 
 Edit your article. You will now have two new options in the "settings" tab:
 
-- Hide left portletslot
-- Hide right portletslot
+    * Hide left portlet slot
+    * Hide right portlet slot
 
-If you select them one of them the selected column will be hidden.
+If you select one of them the selected column will be hidden.
 
 Copyright and credits
 =====================
 
-raptus.article is copyrighted by raptus_, and licensed under the GPL. 
+raptus.article is copyrighted by `Raptus AG <http://raptus.com>`_ and licensed under the GPL. 
 See LICENSE.txt for details.
-
-.. _raptus: http://raptus.com/ 
