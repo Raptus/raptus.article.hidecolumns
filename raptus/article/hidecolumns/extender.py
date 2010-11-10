@@ -26,8 +26,8 @@ class ArticleSchemaExtender(object):
                          languageIndependent = True,
                          schemata = 'settings',
                          widget = BooleanWidget(
-                                  description=_(u'description_hide_left_portletslot', default=u'If selected, the left Portletslot is hidden'),
-                                  label = _(u'label_hide_left_portletslot', default=u'Hide left portletslot'),
+                                  description=_(u'description_hide_left_portletslot', default=u'If selected, the left portlet slot is hidden'),
+                                  label = _(u'label_hide_left_portletslot', default=u'Hide left portlet slot'),
                                   visible={'view' : 'hidden',
                                            'edit' : 'visible'},
                                   ),
@@ -38,8 +38,8 @@ class ArticleSchemaExtender(object):
                          languageIndependent = True,
                          schemata = 'settings',
                          widget = BooleanWidget(
-                                  description=_(u'description_hide_right_portletslot', default=u'If selected, the right Portletslot is hidden'),
-                                  label = _(u'label_hide_right_portletslot', default=u'Hide right portletslot'),
+                                  description=_(u'description_hide_right_portletslot', default=u'If selected, the right portlet slot is hidden'),
+                                  label = _(u'label_hide_right_portletslot', default=u'Hide right portlet slot'),
                                   visible={'view' : 'hidden',
                                            'edit' : 'visible'},
                                   ),
